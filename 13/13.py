@@ -77,7 +77,7 @@ class Arcade:
       paddle_pos = field.find(3)
       ball_pos = field.find(4)
       self._prog.put_input(sign(ball_pos[1] - paddle_pos[1]))
-      time.sleep(0.1)
+      time.sleep(0.01)
     return score
 
 prog_code = parse_prog_code(sys.argv[1])
