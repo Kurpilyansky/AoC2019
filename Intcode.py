@@ -54,6 +54,10 @@ class Program:
   def put_input(self, val):
     self.inputs.append(val)
 
+  def put_inputs(self, vals):
+    for val in vals:
+      self.inputs.append(val)
+
   def run(self):
     try:
       while True:
